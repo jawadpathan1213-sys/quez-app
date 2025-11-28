@@ -8,7 +8,7 @@ import Result from './components/Result'
 
 const App = () => {
   return (
-    <div className='bg-[#48cae4] h-fit w-[100vw] text-white'>
+    <div className='bg-[#48cae4] h-[100vh] w-[100vw] text-white'>
       <Routes>
         <Route path='/' element = {<Home />} />
         <Route path='/menu' element = {<Subjects />} />
